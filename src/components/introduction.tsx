@@ -1,15 +1,31 @@
 'use client';
 
 import Image from 'next/image';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
+import { useActiveSectionContext } from '@/context/active-section-context';
+import { useInView } from 'react-intersection-observer';
 
 export default function Introduction() {
+    const { ref, inView } = useInView({
+        threshold: 0.4,
+    });
+    const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
+
+    useEffect(() => {
+        if (inView && Date.now() - timeOfLastClick > 1000) {
+            setActiveSection('Home');
+        }
+    }, [inView, setActiveSection, timeOfLastClick]);
     return (
-        <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+        <section
+            ref={ref}
+            className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'
+            id='home'
+        >
             <div className='flex items-center justify-center'>
                 <div className='relative'>
                     <motion.div
@@ -54,8 +70,8 @@ export default function Introduction() {
                 <span className='font-bold'>software engineer</span> with{' '}
                 <span className='font-bold'>1 years</span> of experience. I am
                 really intrested into{' '}
-                <span className='italic'>back-end development</span>. My current
-                focus is{' '}
+                <span className='italic'>back-end development</span>. I am
+                currently learning{' '}
                 <span className='underline'>Express.js and Next.js</span>.
             </motion.p>
 
