@@ -56,3 +56,24 @@ export const projectsData = [
     height: '776',
   }
 ]as const;
+
+export const skillsData = [
+  "C",
+  "C#",
+  "C++",
+  "Python",
+  "Java",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "MySQL",
+  "Laravel",
+  "Git",
+  "TypeScript",
+  "ExpressJs",
+  "NextJs",
+  "PostgreSQL",
+  "Postman",
+  "Routing-controllers",
+  "Framer motion"
+]as const;
