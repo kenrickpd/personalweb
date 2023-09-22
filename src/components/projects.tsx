@@ -9,6 +9,7 @@ import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Projects() {
     const { ref, inView } = useInView({
+        threshold: 0.25,
     });
     const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
