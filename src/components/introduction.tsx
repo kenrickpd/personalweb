@@ -68,7 +68,7 @@ export default function Introduction() {
             >
                 <span className='font-bold'>Hello, I am Kenrick.</span> I am a{' '}
                 <span className='font-bold'>software engineer</span> with{' '}
-                <span className='font-bold'>1 years</span> of experience. I am
+                <span className='font-bold'>1 years</span> of learning. I am
                 really intrested into{' '}
                 <span className='italic'>back-end development</span>. I am
                 currently learning{' '}
