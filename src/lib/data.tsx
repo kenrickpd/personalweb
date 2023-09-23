@@ -52,7 +52,7 @@ export const projectsData = [
     title: "Himtikit Website", 
     description: "This website is a learning kit website for the students on my university. This is my first project using a framework instead of just using vanilla HTML, CSS and JS.",
     tags: ["Laravel", "PHP", "Blade"],
-    imageUrl: "/Himtikit.png",
+    imageUrl: "/himtikit.png",
     width: '1370',
     height: '776',
   }
