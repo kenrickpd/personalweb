@@ -66,9 +66,11 @@ export default function Introduction() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className='font-bold'>Hello, I am Kenrick.</span> I am a{' '}
-                <span className='font-bold'>software engineer</span> with{' '}
-                <span className='font-bold'>1 years</span> of learning. I am
+                <span className='font-bold'>Hello, I am Kenrick.</span> I am an{' '}
+                <span className=''>undergraduate{' '}
+                <span className='font-bold'>computer science </span>
+                student at Bina Nusantara</span> with{' '}
+                <span className='font-bold'>3 years</span> of learning. I am
                 really intrested into{' '}
                 <span className='italic'>back-end development</span>. I am
                 currently learning{' '}
