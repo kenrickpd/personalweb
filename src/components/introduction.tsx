@@ -70,7 +70,7 @@ export default function Introduction() {
                 <span className=''>undergraduate{' '}
                 <span className='font-bold'>computer science </span>
                 student at Bina Nusantara</span> with{' '}
-                <span className='font-bold'>3 years</span> of learning. I am
+                <span className='font-bold'>2 years</span> of learning. I am
                 really intrested into{' '}
                 <span className='italic'>back-end development</span>. I am
                 currently learning{' '}
