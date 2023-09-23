@@ -1,7 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuClipboardCheck, LuGraduationCap } from "react-icons/lu";
+import { FaPeopleGroup } from "react-icons/fa6";
+import { FaUniversity } from "react-icons/fa";
+import {MdDeveloperMode} from "react-icons/md"
 
 export const links = [
   {
@@ -76,4 +77,42 @@ export const skillsData = [
   "Postman",
   "Routing-controllers",
   "Framer motion"
+]as const;
+
+export const experiencesData = [
+  {
+    title: 'Atma Asta Ratetra Staff',
+    location: 'SMAN 8 Bandung, Indonesia',
+    description: 'Atma Asta is an annual event held by my high school, SMAN 8 Bandung. My role here is as Staff of Tenant Division.',
+    icon: React.createElement(LuClipboardCheck),
+    date: '2019'
+  },
+  {
+    title: 'Graduated High School',
+    location: 'SMAN 8 Bandung, Indonesia',
+    description: 'I graduated from my high school SMAN 8 Bandung.',
+    icon: React.createElement(LuGraduationCap),
+    date: '2021'
+  },
+  {
+    title: 'Attend BINUS University Computer Science',
+    location: 'BINUS University Bandung, Indonesia',
+    description: 'Im currently studying at BINUS University in Computer Science Degree.',
+    icon: React.createElement(FaUniversity),
+    date: '2021'
+  },
+  {
+    title: 'Joined HIMTI',
+    location: 'BINUS University Bandung, Indonesia',
+    description: 'I joined a Students Association called HIMTI(Himpunan Mahasiswa Teknik Informatika Universitas Bina Nusantara) as Web Developer Activist for 1 year.',
+    icon: React.createElement(FaPeopleGroup),
+    date: '2022'
+  },
+  {
+    title: 'Joined BNCC',
+    location: 'BINUS University Bandung, Indonesia',
+    description: 'I Joined an organization called BNCC(Bina Nusantara Computer Science) as Research and Development Staff for 1 year.',
+    icon: React.createElement(MdDeveloperMode),
+    date: '2023'
+  }
 ]as const;
