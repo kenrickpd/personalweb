@@ -11,7 +11,7 @@ import { useInView } from 'react-intersection-observer';
 
 export default function Introduction() {
     const { ref, inView } = useInView({
-        threshold: 0.4,
+        threshold: 0.4
     });
     const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
@@ -67,11 +67,13 @@ export default function Introduction() {
                 animate={{ opacity: 1, y: 0 }}
             >
                 <span className='font-bold'>Hello, I am Kenrick.</span> I am an{' '}
-                <span className=''>undergraduate{' '}
-                <span className='font-bold'>computer science </span>
-                student at Bina Nusantara</span> with{' '}
-                <span className='font-bold'>2 years</span> of learning. I am
-                really intrested into{' '}
+                <span className=''>
+                    undergraduate{' '}
+                    <span className='font-bold'>computer science </span>
+                    student at Bina Nusantara
+                </span>{' '}
+                with <span className='font-bold'>2 years</span> of learning. I
+                am really intrested into{' '}
                 <span className='italic'>back-end development</span>. I am
                 currently learning{' '}
                 <span className='underline'>Express.js and Next.js</span>.
@@ -100,18 +102,18 @@ export default function Introduction() {
                     Download my CV <HiDownload />
                 </a>
                 <div className='flex items-center gap-4'>
-                <a
-                    className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition'
-                    href='https://www.linkedin.com/in/kenrick-dewanto-411470256/'
-                >
-                    <BsLinkedin />
-                </a>
-                <a
-                    className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition'
-                    href='https://github.com/kenrickpd'
-                >
-                    <FaGithubSquare />
-                </a>
+                    <a
+                        className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition'
+                        href='https://www.linkedin.com/in/kenrick-dewanto-411470256/'
+                    >
+                        <BsLinkedin />
+                    </a>
+                    <a
+                        className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition'
+                        href='https://github.com/kenrickpd'
+                    >
+                        <FaGithubSquare />
+                    </a>
                 </div>
             </motion.div>
         </section>
