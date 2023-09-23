@@ -32,19 +32,19 @@ export const projectsData = [
     height: '1079',
   }, 
   {
-    title: "Foodtura", 
-    description: "Foodtura is a platform that will be focused on a restaurant management. My role here is as back-end developer",
-    tags: ["Next.js","Express.js", "PostgreSQL", "Routing-controllers", "Typeorm"],
-    imageUrl: "/foodtura.png",
-    width: '1010',
-    height: '715',
-  },
-  {
     title: "blogskuy", 
-    description: "Blogskuy is a blog website. This project isn’t completely done but my job as a back-end web developer is already done.",
+    description: "Blogskuy is a classic blogging website. This project isn’t completely done but my job as a back-end web developer is already done.",
     tags: ["Next.js","Express.js", "MySQL", "Routing-controllers", "Typeorm"],
     imageUrl: "/blogskuy.png",
     width: '1370',
+    height: '715',
+  },
+  {
+    title: "Foodtura", 
+    description: "Foodtura is a platform that are focused on a restaurant management. My role here is as back-end developer",
+    tags: ["Next.js","Express.js", "PostgreSQL", "Routing-controllers", "Typeorm"],
+    imageUrl: "/foodtura.png",
+    width: '1010',
     height: '715',
   },
   {
