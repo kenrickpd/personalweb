@@ -15,13 +15,13 @@ export default function Projects() {
 
     useEffect(() => {
         if (inView && Date.now() - timeOfLastClick > 1000) {
-            setActiveSection('Projects');
+            setActiveSection('Portfolio');
         }
     }, [inView, setActiveSection, timeOfLastClick]);
 
     return (
-        <section ref={ref} id='projects' className='scroll-mt-28'>
-            <SectionHeading>My Projects</SectionHeading>
+        <section ref={ref} id='portfolios' className='scroll-mt-28'>
+            <SectionHeading>My Portfolios</SectionHeading>
             <div>
                 {projectsData.map((project, index) => (
                     <React.Fragment key={index}>
