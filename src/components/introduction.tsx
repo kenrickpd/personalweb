@@ -72,8 +72,8 @@ export default function Introduction() {
                     <span className='font-bold'>computer science </span>
                     student at BINUS University
                 </span>{' '}
-                with <span className='font-bold'>2 years</span> of learning. {`I'm`} really intrested into{' '}
-                <span className='italic'>back-end development</span>. {`I'm `} 
+                with <span className='font-bold'>2 years</span> of learning. {`I'm`} really interested into{' '}
+                <span className='italic'>full-stack development</span>. {`I'm `} 
                 currently learning{' '}
                 <span className='underline'>Express.js and Next.js</span>.
             </motion.p>
