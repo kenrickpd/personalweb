@@ -109,7 +109,7 @@ export default function Introduction() {
                     </div>
                 </motion.div>
             </div>
-            <div className='flex items-center justify-center mr-[4rem]'>
+            <div className='flex items-center justify-center'>
                 <div className='flex items-center justify-center'>
                     <div className='relative'>
                         <motion.div
