@@ -73,6 +73,7 @@ export const skillsData = [
   "TypeScript",
   "ExpressJs",
   "NextJs",
+  "Go",
   "PostgreSQL",
   "Postman",
   "Routing-controllers",
