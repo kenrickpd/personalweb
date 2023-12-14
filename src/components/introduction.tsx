@@ -68,7 +68,7 @@ export default function Introduction() {
                     <span className='italic'>full-stack development</span>.{' '}
                     {`I'm `}
                     currently learning{' '}
-                    <span className='underline'>Go lang and Next.js</span>.
+                    <span className='underline'>Go and Next.js</span>.
                 </motion.p>
 
                 <motion.div
