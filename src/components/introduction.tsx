@@ -23,10 +23,10 @@ export default function Introduction() {
     return (
         <section
             ref={ref}
-            className='mb-0 text-center sm:mb-0 scroll-mt-[100rem] sm:flex sm:flex-row sm:gap-[8rem]'
+            className='mb-0 text-center xl:mb-0 scroll-mt-[100rem] xl:flex xl:flex-row xl:gap-[8rem] md:flex md:flex-col'
             id='home'
         >
-            <div className='flex items-center justify-center sm:hidden'>
+            <div className='flex items-center justify-center xl:hidden'>
                 <div className='flex items-center justify-center'>
                     <div className='relative'>
                         <motion.div
@@ -44,7 +44,7 @@ export default function Introduction() {
                                 height='646'
                                 quality='95'
                                 priority={true}
-                                className='h-24 w-24 block rounded-full object-cover border-[0.35rem] border-white shadow-xl'
+                                className='h-24 w-24 md:w-40 md:h-40 block rounded-full object-cover border-[0.35rem] border-white shadow-xl'
                             />
                         </motion.div>
                     </div>
@@ -109,7 +109,13 @@ export default function Introduction() {
                     </div>
                 </motion.div>
             </div>
-            <div className='flex items-center justify-center'>
+            <motion.div 
+        className='bg-black xl:my-8 xl:h-[20rem] w-1 rounded-full hidden xl:block'
+        initial={{opacity: 0, y: 100}}
+        animate={{opacity: 1, y: 0}}
+        transition={{delay: 0.125}}
+        ></motion.div>
+            <div className='flex items-center justify-center md:hidden xl:block my-8'>
                 <div className='flex items-center justify-center'>
                     <div className='relative'>
                         <motion.div
