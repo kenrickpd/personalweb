@@ -51,8 +51,16 @@ export const projectsData = [
   {
     title: "Himtikit Website", 
     description: "This website is a learning kit website for the students on my university. This is my first project using a framework instead of just using vanilla HTML, CSS and JS.",
-    tags: ["Laravel", "PHP", "Blade"],
+    tags: ["Laravel", "PHP", "Blade", "MySQL"],
     imageUrl: "/himtikit.png",
+    width: '1370',
+    height: '776',
+  },
+  {
+    title: "Finance Tracker", 
+    description: "A feature rich web based finance tracker with goals, invesment and income/outcome tracking. My role in this project is as a fullstack developer.",
+    tags: ["Laravel", "PHP", "React.JS", "MySQl"],
+    imageUrl: "/FinanceTracker.png",
     width: '1370',
     height: '776',
   }
