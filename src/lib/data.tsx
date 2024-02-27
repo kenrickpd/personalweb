@@ -123,5 +123,12 @@ export const experiencesData = [
     description: 'I Joined an organization called BNCC(Bina Nusantara Computer Science) as Research and Development Staff for 1 year.',
     icon: React.createElement(MdDeveloperMode),
     date: '2023'
+  },
+  {
+    title: 'Application Developer Intern',
+    location: 'PT Bank Central Asia Tbk (BCA)',
+    description: 'SQI developer ITX-G.',
+    icon: React.createElement(MdDeveloperMode),
+    date: '2024'
   }
 ]as const;
