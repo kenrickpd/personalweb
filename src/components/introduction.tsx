@@ -59,7 +59,7 @@ export default function Introduction() {
                     <span className='font-bold'>{`Hello, I'm Kenrick.`}</span>{' '}
                     {`I'm a`}{' '}
                     <span className=''>
-                        <span className='font-bold'>Software Engineer and SQI Developer </span>
+                        <span className='font-bold'>Software Engineer and SQI Intern </span>
                         at PT Bank Central Asia Tbk (BCA)
                     </span>{' '}
                     with <span className='font-bold'>3 years</span> of learning.{' '}
